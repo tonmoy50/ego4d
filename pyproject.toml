@@ -6,8 +6,9 @@ authors = ["tonmoy <tonmoyhalder50@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.13"
+python = ">=3.10,<3.12"
 insightface = "^0.7.3"
+onnxruntime = "^1.16.2"
 
 
 [build-system]
